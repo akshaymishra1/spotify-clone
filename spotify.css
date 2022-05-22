@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family:sans-serif, 'Ubuntu','Varela Round' ;
+    
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    font-weight: 450;
+    font-size: 20px;
+}
+.brand img{
+    height: 60px;
+    padding: 0 8px;
+    /* align-items: center; */
+}
+nav ul li{
+    /* padding-left: 0px; */
+    padding:0 14px;
+    cursor: pointer;
+    /* text-align: center; */
+    /* font-size: large; */
+   
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    font-family: 'Varela Round', 'Ubuntu';
+    color: white;
+    display: flex;
+    margin: 12px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 8px auto;
+    background-image: url('black ackground1.jpg');
+}
+.bottom
+{
+    position: sticky;
+    bottom: 0;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column; 
+    position:relative;
+    /* display: flex; */
+
+
+ }
+.icons{
+    cursor: pointer;
+    padding-top: 15px;
+    height: -2vw;
+   width: auto;
+   font-size: 2vw;
+    /* width:1vw;  */
+   
+
+}
+#myProgressBar{
+    width: 60vw;
+    cursor: pointer;
+    
+    
+}
+.songItem{
+    height: 40px;
+    display: flex;
+    background-color: rgba(196, 196, 196, 0.76);
+    width: 70%;
+    color: black;
+    margin: 8px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 35px;
+}
+
+.songItem img{
+  
+    width: 50px;
+    margin: 2px 0;
+    padding-left: 3px;
+    border-radius: 50%;
+    cursor:pointer
+}
+.iconsWidth
+{
+    width: 18px;
+    padding-right: 10px;
+    padding-top: 5px;
+   padding-top: 10px;
+}
+.timestamp
+{
+    font-size: 12px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.songInfo
+{
+    left: 10vw;
+    position: absolute;
+    color: black;
+}
+.songInfo img{
+    height: 3vw;
+    padding-left:10vw;
+    padding-top: 3.0vw;
+    opacity: 0;
+    transition: opacity 0.8s ease-in ;
+}
+
